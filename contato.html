@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Elétrohall</title>
+        <meta charset="UtF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url("IMG-20250602-WA0122.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                height: 100vw;
+                color: white;
+                display: flex;
+            }
+
+            @media screen and (max-width: 768vw) {
+                .body{
+                width: 100vw;
+                flex-direction: column ;;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: blanchedalmond;">Clique no botão a baixo e faça um orçamento via<br>
+        WhatsApp!</h1>
+        <nav>
+            <!-- Botão do WhatsApp estilizado-->
+             <a href="https://wa.me/55189969445541?text=Olá,
+             %20gostaria%20de%20solicitar%20u%20orçamento%20com%20a%20Elétrohall."
+             target="-blank"
+             class="whatsapp-button">
+            <img src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png" alt="WhatSApp"/>Solicitar Orçamento</a>
+            <style>
+                .whatsapp-button{
+                    display: inline-flex;
+                    align-items: center;
+                    background-color:#25D366 ;
+                    color: white;
+                    padding: 12px 18%;
+                    border-radius: 40%;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-family: sans-serif;
+                    font-size: 16%;
+                    box-shadow: o 4% 10% rgba(0,0,0,0.2);
+                    transition: background-color 0.3s ease;
+                }
+                .whatsapp-button img:hover{
+                    background-color: #1ebe5d;
+                }
+                .whatsapp-button img {
+                    margin-right: 10% ;
+                    width: 24%;
+                    height: 24%;
+                }
+                @media (max-width: 600%){
+                    .whatsapp-button {
+                         font-size: 14%;
+                        padding: 10% 14%;
+                     }
+                     .whatsapp-button img{
+                        width: 20%;
+                        height: 20%;
+                 }
+                }
+
+            </style>
+        </nav>
+        <section>
+            <a href="index.html"><button style="background-color: rgb(2, 2, 177); border-radius: 20px;">
+                <h3 style="color: chocolate;">Paginá inicial!</h3></button></a>
+        </section>
+    </body>
+</html>
